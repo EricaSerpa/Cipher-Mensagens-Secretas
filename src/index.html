@@ -6,8 +6,43 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Mensagens Secretas</h1>
+    <br>
+    <p>Troque mensagens secretas com seus amigos de uma forma divertida</p> 
+    <br>
+    <h2>Para começar digita a chave (0-26)</h2>
+    <input type="number" name="offsetnumber" id="txtnumber" min="0" max="26">
+  </header>
+
+    <section>
+    <form>
+      <div id="mensagem1">
+        <input type="txtmsg" name="txtmsg" placeholder="Digite sua mensagem secreta:" id="txtmsg">
+        <button type="button" value="Codificar" onclick="codificar()">
+      </div>
+      <div id="codificada">
+        <input type="txtmsg" name="txtmsg" placeholder="Sua mensagem secreta é:" id="txtmsg">
+      </div>
+         <p>Se você recebeu uma mensagem secreta podemos te ajudar a desvendar</p>
+
+         <br>
+      <div id="decodificada">
+        <input type="txtmsg" name="txtmsg" placeholder="Digite sua mensagem secreta recebida:" id="txtmsg">
+        <br>
+        <button type="submit" value="descodificar" onclick="descodificar()">
+      </div>
+      <div id="mensagem2">
+        <input type="txtmsg" name="txtmsg" placeholder="Sua mensagem será desvendada aqui" id="txtmsg">
+      </div>
+    </form>
+    <footer>
+      <p>Desenvolvido por @ericaserpa</p>
+    </footer>
+  </section>
+
   <div id="root">
-    <h1>Hello world!</h1>
+    
   </div>
   <script src="index.js" type="module"></script>
 </body>
