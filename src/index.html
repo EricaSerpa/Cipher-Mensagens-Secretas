@@ -9,42 +9,29 @@
   <header>
     <img src = "secret.png" alt="secret"> 
     <h1>Mensagens Secretas</h1>
-    <br>
-    <p>Troque mensagens secretas com seus amigos de uma forma divertida</p> 
-    <br>
-    <h2>Para começar digita a chave (0-26)</h2>
-    <input type="number" name="offsetnumber" id="txtnumber" min="0" max="26">
+    <p>Troque mensagens secretas com seus amigos de uma forma divertida usando Cifra de César</p>
+    <p> Agora você pode mandar mensagem secretas para seus amigos, enviando por carta, bilhete e até mesmo via whatsapp e outros. A criptografia com o código Cifra de César é baseada em uma mudança do alfabeto (movimento das letras no alfabeto), é uma cifra de substituição monoalfabética.</p>
+    <a  href =" https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar "  target ="_self"  style =" color:rgb(223, 12, 12) ">Saiba mais clicando aqui</a>  
+
   </header>
+  <main>
+  <form>
+    <div class="key">
+      <h2>Para começar digita a chave (0-26)</h2>
+      <input id = "key" type = "number" value = "0" min= "0" max = "26"> 
+    </div>
+    <textarea id="txtmsg" class="inputs" placeholder="Digite sua mensagem secreta a ser codificada:"></textarea>
+    <button id="crypt" class="button" type="button">Codificar</button>
+    <textarea id="msgcode" class="inputs" placeholder="Digite sua mensagem secreta é:"></textarea>
+    <button id="decrypt" class="button" type="button">Descodificar</button>
+  </form>
+  <footer>Desenvolvido por @ericaserpa</footer>
+  </main>
+  
 
-    <section>
-    <form>
-      <div id="mensagem1">
-        <input type="txtmsg" name="txtmsg" placeholder="Digite sua mensagem secreta:" id="txtmsg">
-        <button type="button" value="Codificar" onclick="codificar()">
-      </div>
-      <div id="codificada">
-        <input type="txtmsg" name="txtmsg" placeholder="Sua mensagem secreta é:" id="txtmsg">
-      </div>
-         <p>Se você recebeu uma mensagem secreta podemos te ajudar a desvendar</p>
-
-         <br>
-      <div id="decodificada">
-        <input type="txtmsg" name="txtmsg" placeholder="Digite sua mensagem secreta recebida:" id="txtmsg">
-        <br>
-        <button type="submit" value="descodificar" onclick="descodificar()">
-      </div>
-      <div id="mensagem2">
-        <input type="txtmsg" name="txtmsg" placeholder="Sua mensagem será desvendada aqui" id="txtmsg">
-      </div>
-    </form>
-    <footer>
-      <p>Desenvolvido por @ericaserpa</p>
-    </footer>
-  </section>
-
-  <div id="root">
-    
-  </div>
-  <script src="index.js" type="module"></script>
+<div id="root">
+  
+</div>
+<script src="index.js" type="module"></script>
 </body>
 </html>
