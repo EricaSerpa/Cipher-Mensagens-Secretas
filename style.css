@@ -1,0 +1,143 @@
+/* css */
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+head{
+    color: rgba(201, 9, 9, 0.925);
+    
+}
+
+body{
+    background-image: url(fundo5.jpeg);
+}
+
+header{
+
+    text-align: center;
+    justify-content: center;  
+}
+
+img{
+    width: 800px;
+    height: 420px;
+}
+
+h1{
+    border-radius: 30px;
+    padding: 10px;
+    font: normal 60px monospace;
+    color: rgba(201, 9, 9, 0.925);
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font: normal 15pt monospace;
+    font-style:oblique;
+    margin: 50px;
+    color: rgb(7, 6, 7);
+    border: 0.2em solid #ECE2C3;
+    border-radius: 200px;
+    background-color: #ECE2C3;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgb(252, 248, 234), rgb(255, 255, 255), rgb(248, 239, 211));
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+a{
+    color:rgb(223, 12, 12);
+    font: normal 8pt monospace;
+    height: 161px;
+    width: 498px;
+}
+
+/*.centralizar {
+    text-align: center;
+    width: min(100vw,900px);
+    margin: 10px auto;
+}*/
+
+h2{
+    text-align: center;
+    font: normal 15px monospace;
+    font-style:italic;
+    color: rgba(3, 0, 0, 0.925); 
+    
+}
+div{
+        border-radius: 200px;
+        margin: 10px;
+        text-align: center;
+        height: 155px;
+        width: 498px;
+        margin-left: 700px;
+        
+}
+
+    textarea{
+        height: 100px;
+        width: 600px;
+        border-radius: 200px;
+        padding: 0.2rem;  
+        margin: 50px 550px;
+        text-align: center;
+        background-color: #fcf8ea;
+        border: 0.5em solid #ECE2C3;
+        width: min(200vw,700px);
+        background: linear-gradient(#fcf8ea,#ffffff,#f8efd3);
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: linear-gradient(rgb(252, 248, 234), rgb(255, 255, 255), rgb(248, 239, 211));
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+    }
+
+    button {
+        cursor: pointer;
+        height: 30px;
+        width: 100px;
+        margin: 5px 300px;
+        margin-left: 900px;
+        font: normal 9pt monospace;
+        background-color: #ECE2C3;
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: linear-gradient(rgb(252, 248, 234), rgb(255, 255, 255), rgb(248, 239, 211));
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        
+    }
+    
+    button:hover {
+        background-color: grey;
+        color: lightgrey;
+
+    }
+    footer {
+        text-align: center;
+        padding-top: 10px;
+        color: rgb(7, 6, 7);
+        font: normal 12pt monospace;
+        margin: 70px;
+        background-color: #ece2c3;
+        border-radius: 200px;
+    }
