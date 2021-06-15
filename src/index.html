@@ -4,34 +4,36 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href= "Mensagem.png" type= "image/x-icon"/>
 </head>
 <body>
   <header>
-    <img src = "secret.png" alt="secret"> 
+    <img src = "Mensagem.png" alt="secret"> 
     <h1>Mensagens Secretas</h1>
     <p>Troque mensagens secretas com seus amigos de uma forma divertida usando Cifra de César</p>
-    <p> Agora você pode mandar mensagem secretas para seus amigos, enviando por carta, bilhete e até mesmo via whatsapp e outros. A criptografia com o código Cifra de César é baseada em uma mudança do alfabeto (movimento das letras no alfabeto), é uma cifra de substituição monoalfabética.</p>
-    <a  href =" https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar "  target ="_self"  style =" color:rgb(223, 12, 12) ">Saiba mais clicando aqui</a>  
-
+    <p> Agora você pode mandar mensagem secretas para seus amigos, enviando por carta, 
+      bilhete e até mesmo via whatsapp e outros. 
+      A criptografia com o código Cifra de César é baseada em uma mudança do alfabeto, 
+      é uma cifra de substituição monoalfabética. 
+      <br>
+      <a  href =" https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar "  target ="_self">Saiba mais clicando aqui</a></p> 
+    
   </header>
   <main>
   <form>
-    <div class="key">
-      <h2>Para começar digita a chave (0-26)</h2>
-      <input id = "key" type = "number" value = "0" min= "0" max = "26"> 
+    <div id="deslocamento">
+      <h2>Para começar digita a chave </h2>
+      <input id = "keyoffset" type = "number" value = "0" min="0"> 
     </div>
-    <textarea id="txtmsg" class="inputs" placeholder="Digite sua mensagem secreta a ser codificada:"></textarea>
-    <button id="crypt" class="button" type="button">Codificar</button>
-    <textarea id="msgcode" class="inputs" placeholder="Digite sua mensagem secreta é:"></textarea>
-    <button id="decrypt" class="button" type="button">Descodificar</button>
+    <textarea id="cryptmsg" class="cryptmsg" style="resize: none" placeholder="Digite sua mensagem e iremos transforma-la secreta:"></textarea>
+    <button id="cryptBtn" class="button" type="button" >Codificar</button>
+    <textarea id="decryptmsg" class="decryptmsg" style="resize: none" placeholder="Vamos desvensar este segredo? Digite sua mensagem secreta recebida:"></textarea>
+    <button id="decryptBtn" class="button" type="button" >Decodificar</button>
   </form>
   <footer>Desenvolvido por @ericaserpa</footer>
   </main>
-  
 
-<div id="root">
-  
-</div>
+
 <script src="index.js" type="module"></script>
 </body>
 </html>
