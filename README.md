@@ -5,7 +5,7 @@
 Mensagens Secretas é um projeto onde o usuário poderá codificar mensagens 
 usando Cifra de César que é um dos primeiros tipos de criptografias 
 conhecidas na história. 
-E ao enviar essas mensagens a mesma poderá ser desvendada (descodificada).
+E ao enviar essas mensagens a mesma poderá ser desvendada (decodificada).
 
 ## Índice
 
