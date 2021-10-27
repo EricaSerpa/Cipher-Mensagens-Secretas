@@ -131,5 +131,4 @@ Comando utilizado para execução teste
 
 ## 👩‍💻 Desenvolvido por
 
-- [@ericaserpa](https://github.com/EricaSerpa)
-
+- [@ericaserpa](https://www.linkedin.com/in/ericaserpa/)
