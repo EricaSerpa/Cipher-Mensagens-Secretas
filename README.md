@@ -7,15 +7,6 @@ usando Cifra de César que é um dos primeiros tipos de criptografias
 conhecidas na história. 
 E ao enviar essas mensagens a mesma poderá ser desvendada (decodificada).
 
-## Índice
-
-- 1 - Projeto
-- 2 - Produto
-- 3 - Usuário do Produto
-- 4 - Design
-- 5 - Tecnologia utilizadas 
-- 6 - Instalação do Projeto   
-
 ## 🔖 Projeto
 
 Primeiro projeto do bootcamp da [Laboratória](https://www.laboratoria.la/br). 
